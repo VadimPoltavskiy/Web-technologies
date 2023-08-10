@@ -13,9 +13,8 @@ Cоздать функцию greeting, которая принимает в ка
 его имя и вызвать функцию greeting, передав туда полученное от пользователя значение.
 */
 
-let name = Grettings(prompt('Введите Ваше имя'));
+grettings(prompt('Введите Ваше имя'));
 
-function Grettings(name) {
-    grettings = `Привет, ${name}!`
-    console.log(grettings);
+function grettings(name) {
+    console.log(`Привет, ${name}!`);
 }
